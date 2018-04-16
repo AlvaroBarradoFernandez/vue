@@ -1,0 +1,25 @@
+<body>
+<section class="login-registro">
+  <label>Prueba</label>
+  <div class="plogin" v-show="blLoginVisible">
+    <h1>{{sTitulo}}</h1>
+    <button> Logearse</button>
+    <button v-on:click="clickDeBotonRegistrarse"> Registrarse</button>
+  </div>
+  <div class="pregistro" v-show="!blLoginVisible">
+    <h1>Panel Registro</h1>
+    <p>Nombre</p>
+    <input type="text">
+    <p>Contraseña</p>
+    <input type="password">
+    <p>Repetir contraseña</p>
+    <input type="password">
+    <p>e-mail</p>
+    <input type="text">
+    <br>
+    <button> Aceptar</button>
+    <button v-on:click="clickDeBotonCancelar"> Cancelar</button>
+
+    </div>
+</section>
+</body>

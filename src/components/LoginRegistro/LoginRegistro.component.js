@@ -9,10 +9,8 @@ export default {
     }
   },
   computed: {
-
   },
   mounted () {
-
   },
   methods: {
     clickDeBotonRegistrarse(evento){
